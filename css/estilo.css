@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-duration: 2.5s;
+  animation-name: aparecer;
+  text-decoration-color: black;
+  list-style: none;
+  margin-inline: 20px; }
+
+img {
+  width: 60%; }
+
+.container-fluid {
+  background: #dddddd;
+  background: linear-gradient(90deg, #dddddd 0%, black 50%, rgba(221, 221, 221, 0.5) 100%); }
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 20px; }
