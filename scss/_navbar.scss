@@ -1,0 +1,20 @@
+//nesting
+
+.navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            animation-duration: 2.5s;
+            animation-name: aparecer;
+            text-decoration-color: rgb(0, 0, 0);
+            list-style: none;
+            margin-inline: 20px;
+}
+
+img{
+    width: 60%;
+}
+.container-fluid{
+    background: rgb(221,221,221);
+    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(0,0,0,1) 50%, rgba(221,221,221,0.5) 100%);
+}
