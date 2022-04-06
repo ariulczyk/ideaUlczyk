@@ -1,0 +1,25 @@
+{
+  "name": "repoulczyk",
+  "version": "1.0.0",
+  "description": "Hola, mi nombre es Ariel Ulczyk y soy fotógrafo. \r Esta página la diseñé para subir mi material a lo largo \r de estos años así pueden ver como trabajé con niños de todas las edades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariulczyk/ideaUlczyk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariulczyk/ideaUlczyk/issues"
+  },
+  "homepage": "https://github.com/ariulczyk/ideaUlczyk#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
