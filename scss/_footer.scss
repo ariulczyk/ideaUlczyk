@@ -2,3 +2,35 @@
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
+
+p{
+    @include p-m(20px,10px);
+    @include maintext(1.2em, 1.4em, black)
+
+}
+
+$redes:(
+    facebook: #dddddd,
+    instagram: #dddddd
+);
+
+@each $grey, $color in $redes{
+    .svg--#{$grey}{
+
+        background-color: $color;
+    }
+}
+
+$estilos: (
+  color: #0e0e0e,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);
+
+div {
+  background-color: map-get($estilos, color);
+  text-align: map-get($estilos, centro);
+  padding: map-get($estilos, 1rem);
+  font-size:map-get($estilos, tFuente);
+}
