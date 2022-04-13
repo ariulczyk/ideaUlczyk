@@ -7,3 +7,21 @@ $w-100:100%;
 $w-75:75%;
 $w-50:50%;
 $w-25:25%;
+
+@mixin p-m($padding, $margin){
+    padding:$padding;
+    margin:$margin;
+}
+
+
+@mixin maintext($size, $line, $color){
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    font-family: 'montserrat'; 
+}
+
+@mixin borderradius(){
+    border-radius: 12px;
+}
+
