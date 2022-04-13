@@ -19,8 +19,40 @@ img {
 
 .container-fluid {
   background: #dddddd;
-  background: linear-gradient(90deg, #dddddd 0%, black 50%, rgba(221, 221, 221, 0.5) 100%); }
+  background: linear-gradient(90deg, #dddddd 0%, rgba(0, 0, 0, 0.695413) 50%, #dddddd 100%); }
+
+.nav-item {
+  border-radius: 12px; }
+
+.bg-gradient, .bg-light-img {
+  background-color: #dddddd; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'montserrat'; }
 
 .footer {
   margin-top: 50px;
   margin-bottom: 20px; }
+
+p {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: black;
+  font-family: 'montserrat'; }
+
+.svg--facebook {
+  background-color: #dddddd; }
+
+.svg--instagram {
+  background-color: #dddddd; }
+
+div {
+  background-color: #0e0e0e;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px; }
