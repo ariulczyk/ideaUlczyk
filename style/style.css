@@ -254,3 +254,12 @@ p{
     background: rgb(221,221,221);
     background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(0,0,0,0.6954131994594712) 50%, rgba(221,221,221,1) 100%);
 }
+
+.carousel-inner{
+	margin-top: 100px;
+}
+
+.carFut{
+	font-size: 80px;
+	margin-top: 100px;
+}
