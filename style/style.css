@@ -39,59 +39,65 @@ h1 {
 	font-size: 2rem;
 }
 
-.section{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	}
-
-.imgPrincipal{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	font-size: 1rem;
-	align-items: center;
-}	
-
-body{
-	font-size: 6rem;
-}
-
-.title{
-	font-size: 60px;
-}
-
-h2{
+h2 {
 	display: flex;
 	justify-items: center;
 	text-align: center;
 	align-items: center;
 	font-size: 60px;
 	margin-top: 50px;
-	
+
 }
 
-h3{
+h3 {
 	font-size: 3rem;
 	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 40px;
 }
 
+h4 {
+	text-align: left;
+}
 
+.section {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
 
-.icons{
+.imgPrincipal {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: 1rem;
+	align-items: center;
+}
+
+body {
+	font-size: 6rem;
+}
+
+.title {
+	font-size: 60px;
+}
+
+.title1 {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.icons {
 	display: flex;
 	flex-direction: row;
 }
 
 
-h4 {
-	text-align: left;
-}
+
 
 p {
 	text-align: left;
-	font-size: 2rem;
+	font-size:2rem;
 }
 
 .tablaImpresion {
@@ -106,83 +112,103 @@ th,
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	animation-duration: 2.5s;
 	animation-name: aparecer;
 	text-decoration-color: #fff;
 	
+
 }
 
-.fotos, h2{
+.fotos,
+h2 {
 	display: flex;
 	font-size: 40px;
 	text-align: center;
-	justify-content: center;	
-}
-.font-size  {
-    font-size: 10.25rem;
-	color: #f8f9fa!important;
-	
-}
-.font-size2  {
-    font-size: 3rem;
-	color: #0c0c0c!important;
+	justify-content: center;
 }
 
-.titleFirst{
+.font-size {
+	font-size: 8rem;
+	color: #828588 !important;
+}
+
+.font-size2 {
+	font-size: 8rem;
+	color: #f8f9fa !important;
+}
+
+.titleFirst {
 	padding-bottom: 5%;
 	text-align: center;
 	font-size: 6rem;
 }
 
-.dropdown-item{
+.dropdown-item {
 	font-size: 2rem;
 }
 
-.subtitle{
-	font-size: 3.25rem;
-text-decoration-color: #6b6b6b;
-	}
+.subtitle1 {
+	font-size: 40px;
+	color: #828588;
+}
 
-.fotos{
+.subtitle2 {
+	font-size: 40px;
+	color: #f8f9fa;
+}
+
+.fotos {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 60px;
 	text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+	.navbar{
+		width: 100%;
+	}
+	}
 
-@media screen and (min-width: 320px) {
-	
-      .fotos {
-    	border: 2px solid black;
-    	background-color: white;
-     }
-}
+	@media screen and (max-width: 600px) {
+		.containerCards {
+		  width: 50%;
+		}
+	  }
 
-.productos{
+  @media screen and (max-width: 600px){
+		.sobre,
+		.imgBio,
+		.bioAri{
+			width: 100%;
+			}
+	  }
+	  
+.productos {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
+
 }
 
-html{
-	background-image: linear-gradient(to left, white , rgb(112, 107, 107));
-	background-image: linear-gradient(to right, white , rgb(112, 107, 107));
-   }
-   
+html {
+	background-image: linear-gradient(to left, white, rgb(112, 107, 107));
+	background-image: linear-gradient(to right, white, rgb(112, 107, 107));
+}
 
-.form-outline{
+
+.form-outline {
 	justify-items: center;
 	font-size: 3rem;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    filter: invert(1);
-	
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	filter: invert(1);
+
 }
 
 
@@ -192,74 +218,168 @@ html{
 	background-color: rgb(126, 124, 124);
 }
 
+.mensaje{
+	font-size: 6rem;
+}
 
 
-.sobre{ 
+.sobre {
 	display: flex;
 	align-items: top;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	flex-direction: row-reverse;
 	justify-content: center;
-	
+
 }
 
-p{
-	font-size: 3rem;
-	margin-left: 60px;
-	margin-right: 60px;
-	margin-bottom: 80px;
+.bioAri{
+	font-size: 22px;
+	margin-right: 80px;
+	margin-left: 80px;
 }
 
-.imgBio{
-	margin-block-start: 10px;
+.imgBio {
+	size: 10px;
 	margin-right: 20px;
+	margin-left: 20px;
 }
 
-.btn-send, .btn-success{
-    color: #fff;
-    background-color: #888888;
-    border-color: #888888;
+.btn-send,
+.btn-success {
+	color: #fff;
+	background-color: #888888;
+	border-color: #888888;
 	font-size: 2rem;
 	margin-left: 38%;
 }
 
-@keyframes aparecer{
-	0%{
+@keyframes aparecer {
+	0% {
 		opacity: 0;
 	}
-	100%{
+
+	100% {
 		opacity: 1;
 	}
 }
 
 .btn-success:hover {
-    color: #fff;
-    background-color: #363636;
-    border-color: #363636;
+	color: #fff;
+	background-color: #363636;
+	border-color: #363636;
 }
-.container{
+
+.container {
 	font-size: 3rem;
 }
-.form-control{
+
+.form-control {
 	font-size: 2rem;
 }
 
-.footer{
+.footer {
 	margin-top: 50px;
 	margin-bottom: 20px;
 }
 
-.container-fluid{
-    background: rgb(221,221,221);
-    background: linear-gradient(90deg, rgba(221,221,221,1) 0%, rgba(0,0,0,0.6954131994594712) 50%, rgba(221,221,221,1) 100%);
+.container-fluid {
+	margin-top: -10px;
+	background: rgb(221, 221, 221);
+	background: linear-gradient(90deg, rgba(221, 221, 221, 1) 0%, rgba(0, 0, 0, 0.6954131994594712) 50%, rgba(221, 221, 221, 1) 100%);
 }
 
-.carousel-inner{
+.carousel-inner {
+	margin-top: 50px;
+}
+
+@media (max-width:700px) and (min-width:400px) {
+    .titleFirst
+	.titlePrecio{
+       font-size: 40px;
+    }
+}
+
+
+
+.carFut {
+	font-size: 8vh;
 	margin-top: 100px;
 }
 
-.carFut{
-	font-size: 80px;
-	margin-top: 100px;
+.card {
+	margin-top: 30%;
+}
+
+.card-text {
+	font-size: 1.5rem;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+.containerCards {
+	display: flex;
+	flex-direction: row;
+}
+
+.cardNew {
+	border-radius: 16px;
+	margin: 0 auto;
+	width: 400px;
+	max-width: 100%;
+	min-height: 400px;
+	box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+		0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+		0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	margin-top: 80px;
+
+}
+
+.imgCard {
+	margin-left: 60px;
+	border-radius: 16px;
+}
+
+.description {
+	margin: 0;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	align-self: center;
+}
+
+.titlePrecio {
+	font-size: 6rem;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3D5AFE
+	
+}
+
+.line1 {
+    color: #000;
+    font-size: 12px
+}
+
+.line2 {
+    color: #000;
+    font-size: 12px
+}
+
+.line3 {
+    color: #000;
+    font-size: 12px
+}
+
+.cards {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.cards:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.2)
 }
