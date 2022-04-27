@@ -62,10 +62,7 @@ h4 {
 	text-align: left;
 }
 
-.section {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
+
 
 .imgPrincipal {
 	display: flex;
@@ -147,9 +144,7 @@ h2 {
 	color: #f8f9fa;
 }
 
-
-
-	@media (min-width: 280px) and (max-width: 1240px) {
+@media (min-width: 280px) and (max-width: 1240px) {
 		.containerCards,
 		.cardNew{
 			display: grid;
@@ -159,13 +154,12 @@ h2 {
 		}
 	}
 
-
-  @media screen and (max-width: 600px){
-		.sobre,
-		.imgBio,
-		.bioAri
+  @media screen and (max-width: 540px){
+		.bio,
+		.imgBio
 		{
 			width: 100%;
+			align-items: center;
 			}
 	  }
 	  @media (max-width:700px) and (min-width:282px) {
@@ -198,7 +192,6 @@ html {
 
 }
 
-
 .nav-item:hover {
 	border-radius: 100px;
 	border-color: rgb(126, 124, 124);
@@ -209,26 +202,23 @@ html {
 	font-size: 6rem;
 }
 
+.bio{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
 
-.sobre {
+.bio .imgBio{
 	display: flex;
-	align-items: top;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	justify-content: center;
-
+	flex-wrap: wrap;
+	float: right;
+	margin-left: 50px;
 }
 
-.bioAri{
+aside{
 	font-size: 22px;
-	margin-right: 80px;
-	margin-left: 80px;
-}
-
-.imgBio {
-	size: 10px;
-	margin-right: 20px;
-	margin-left: 20px;
+	
 }
 
 .btn-send,
@@ -258,15 +248,12 @@ html {
 
 .container {
 	font-size: 3rem;
+	margin-top: 2em;
+	
 }
 
 .form-control {
 	font-size: 2rem;
-}
-
-.footer {
-	margin-top: 50px;
-	margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -283,7 +270,7 @@ html {
 	margin-top: 100px;
 }
 
-.card {
+.cardIndex {
 	margin-top: 30%;
 }
 
@@ -296,6 +283,7 @@ html {
 .containerCards {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .cardNew {
@@ -371,6 +359,22 @@ html {
 	text-align: center;
 	margin-bottom: 8vh;
 }
+.page-wrap {
+    min-height: 100vh;
+	}
+.display-1  {
+	font-size: 80px;
+}
 
+.mb-4  {
+	font-size: 50px;
+}
 
+.camera{
+ display: block;
+ margin: 0px auto;
+}
+.text-muted{
+	font-size: 2rem;
+}
 
