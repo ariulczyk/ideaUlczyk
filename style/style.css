@@ -150,16 +150,15 @@ h2 {
 			display: grid;
 			flex-direction: column;
 			margin: auto;
-					
-		}
+}
 	}
 
-  @media screen and (max-width: 540px){
-		.bio,
-		.imgBio
-		{
+	@media (max-width: 720px) and (min-width: 414px){
+		.containerBio
+		{display: flex;
+			flex-wrap: wrap;
 			width: 100%;
-			align-items: center;
+			text-align: center;
 			}
 	  }
 	  @media (max-width:700px) and (min-width:282px) {
@@ -203,23 +202,26 @@ html {
 }
 
 .bio{
+	display: flex;
 	margin-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 100px;
+	margin-left: 50px;
+	flex-wrap: wrap;
+	font-size: 22px;
+	}
+
+.imgBio{
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-bottom: 100px;
 }
 
-.bio .imgBio{
-	display: flex;
+/* aside{display: flex;
 	flex-wrap: wrap;
-	float: right;
-	margin-left: 50px;
-}
-
-aside{
 	font-size: 22px;
 	
-}
+	
+} */
 
 .btn-send,
 .btn-success {
