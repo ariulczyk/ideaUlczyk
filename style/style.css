@@ -144,6 +144,13 @@ h2 {
 	color: #f8f9fa;
 }
 
+@media screen and (min-width: 420px) {
+	.containerBio { 
+		width: 100%;
+  		height: auto;
+	  }
+}
+
 @media (min-width: 280px) and (max-width: 1240px) {
 		.containerCards,
 		.cardNew{
@@ -151,27 +158,8 @@ h2 {
 			flex-direction: column;
 			margin: auto;
 }
-	}
-	/* @media screen and (max-width: 600px){
-		.containerBio{
-			display: flex;
-			flex-wrap: wrap;
-			justify-items: center;
-		}
-	}		 */
-
-
-
-	@media (max-width: 760px) and (min-width: 400px){
-		.containerBio,
-		.imgBio,
-		.bio
-		{display: flex;
-			flex-wrap: wrap;
-			
-			}
-	  }
-	  @media (max-width:700px) and (min-width:282px) {
+}
+	@media (max-width:700px) and (min-width:282px) {
 		.titleFirst
 		.titlePrecio{
 		   font-size: 40px;
@@ -211,20 +199,30 @@ html {
 	font-size: 6rem;
 }
 
+.containerBio{
+	
+	display: flex;
+	display: inline-block;
+}
+
+ 
+
 .bio{
 	display: flex;
 	flex-wrap: wrap;
+	display: inline-block;
 	margin-top: 50px;
 	padding-bottom: 50px;
-	margin-right: 100px;
 	margin-left: 50px;
 	font-size: 22px;
 	}
 
 .imgBio{
+	display: block;
 	margin-left: 50px;
 	margin-right: 50px;
 	justify-self: center;
+	float: right;
 }
 
 .btn-send,
