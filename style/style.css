@@ -9,7 +9,7 @@
 html {
 	font-size: 62.5%;
 	background-color: rgb(248, 239, 230);
-
+	
 }
 
 header {
@@ -23,7 +23,7 @@ nav ul {
 	font-size: 2rem;
 	justify-content: right;
 	text-decoration: none;
-
+	
 }
 
 li {
@@ -94,7 +94,7 @@ body {
 
 p {
 	text-align: left;
-	font-size: 2rem;
+	font-size:2rem;
 }
 
 .navbar {
@@ -145,28 +145,26 @@ h2 {
 }
 
 @media screen and (min-width: 420px) {
-	.containerBio {
+	.containerBio { 
 		width: 100%;
-		height: auto;
-	}
+  		height: auto;
+	  }
 }
 
 @media (min-width: 280px) and (max-width: 1240px) {
-
-	.containerCards,
-	.cardNew {
-		display: grid;
-		flex-direction: column;
-		margin: auto;
-	}
+		.containerCards,
+		.cardNew{
+			display: grid;
+			flex-direction: column;
+			margin: auto;
 }
-
-@media (max-width:700px) and (min-width:282px) {
-	.titleFirst .titlePrecio {
-		font-size: 40px;
-	}
 }
-
+	@media (max-width:700px) and (min-width:282px) {
+		.titleFirst
+		.titlePrecio{
+		   font-size: 40px;
+		}
+	}
 .productos {
 	display: flex;
 	flex-direction: column;
@@ -197,17 +195,17 @@ html {
 	background-color: rgb(126, 124, 124);
 }
 
-.mensaje {
+.mensaje{
 	font-size: 6rem;
 }
 
-.containerBio {
-
+.containerBio{
+	
 	display: flex;
 	display: inline-block;
 }
 
-.bio {
+ .bio{
 	display: flex;
 	flex-wrap: wrap;
 	display: inline-block;
@@ -215,9 +213,9 @@ html {
 	padding-bottom: 50px;
 	margin-left: 50px;
 	font-size: 22px;
-}
+	}
 
-.imgBio {
+.imgBio{
 	display: block;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -235,8 +233,8 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-}
-
+	}
+	
 @keyframes aparecer {
 	0% {
 		opacity: 0;
@@ -256,7 +254,7 @@ html {
 .container {
 	font-size: 3rem;
 	margin-top: 2em;
-
+	
 }
 
 .form-control {
@@ -325,40 +323,40 @@ html {
 }
 
 .heading {
-	font-size: 20px;
-	font-weight: 600;
-	color: #3D5AFE;
-
+    font-size: 20px;
+    font-weight: 600;
+    color: #3D5AFE;
+	
 }
 
 .line1 {
-	color: #000;
-	font-size: 17px;
+    color: #000;
+    font-size: 17px;
 	text-align: center;
 }
 
 .line2 {
-	color: #000;
-	font-size: 17px;
+    color: #000;
+    font-size: 17px;
 	text-align: center;
 }
 
 .line3 {
-	color: #000;
-	font-size: 17px;
+    color: #000;
+    font-size: 17px;
 	text-align: center;
 
 }
 
 .cards {
-	transition: all 0.2s ease;
-	cursor: pointer;
+    transition: all 0.2s ease;
+    cursor: pointer;
 	margin-bottom: 10vh;
 }
 
 .cards:hover {
-	box-shadow: 5px 6px 6px 2px #e9ecef;
-	transform: scale(1.2);
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.2);
 
 }
 
@@ -366,24 +364,22 @@ html {
 	text-align: center;
 	margin-bottom: 8vh;
 }
-
 .page-wrap {
-	min-height: 100vh;
-}
-
-.display-1 {
+    min-height: 100vh;
+	}
+.display-1  {
 	font-size: 80px;
 }
 
-.mb-4 {
+.mb-4  {
 	font-size: 50px;
 }
 
-.camera {
-	display: block;
-	margin: 0px auto;
+.camera{
+ display: block;
+ margin: 0px auto;
 }
-
-.text-muted {
+.text-muted{
 	font-size: 2rem;
 }
+
